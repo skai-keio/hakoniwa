@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="JP-DTL-TEST-001" TSLTag="http://uri.etsi.org/19612/TSLTag">
+    <SchemeInformation>
+        <TSLVersionIdentifier>6</TSLVersionIdentifier>
+        <TSLSequenceNumber>1</TSLSequenceNumber>
+        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/JPlist</TSLType>
+        <SchemeOperatorName>
+            <Name xml:lang="en">test_jp_agency</Name>
+            <Name xml:lang="ja">test_jp_agency</Name>
+        </SchemeOperatorName>
+        <SchemeOperatorAddress>
+            <PostalAddresses>
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>5322 Endo</StreetAddress>
+                    <Locality>Fujisawa</Locality>
+                    <StateOrProvince>Kanagawa</StateOrProvince>
+                    <PostalCode>2520882</PostalCode>
+                    <CountryName>JP</CountryName>
+                </PostalAddress>
+                <PostalAddress xml:lang="ja">
+                    <StreetAddress>5322 遠藤</StreetAddress>
+                    <Locality>藤沢市</Locality>
+                    <StateOrProvince>神奈川県</StateOrProvince>
+                    <PostalCode>2520882</PostalCode>
+                    <CountryName>JP</CountryName>
+                </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+                <URI xml:lang="en">https://d-trust.sfc.wide.ad.jp/</URI>
+                <URI xml:lang="ja">https://d-trust.sfc.wide.ad.jp/</URI>
+            </ElectronicAddress>
+        </SchemeOperatorAddress>
+        <SchemeName>
+            <Name xml:lang="en">JP:test_jp_agency</Name>
+            <Name xml:lang="ja">JP:test_jp_agency</Name>
+        </SchemeName>
+        <SchemeInformationURI>
+            <URI xml:lang="en">https://d-trust.sfc.keio.ac.jp/hakoniwa/POC/TL/OJ-JP.html</URI>
+            <URI xml:lang="ja">https://d-trust.sfc.keio.ac.jp/hakoniwa/POC/TL/OJ-JP.html</URI>
+        </SchemeInformationURI>
+        <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/JPdetermination</StatusDeterminationApproach>
+        <SchemeTypeCommunityRules>
+            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/JPcommon</URI>
+            <URI xml:lang="ja">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/JPcommon</URI>
+        </SchemeTypeCommunityRules>
+        <SchemeTerritory>JP</SchemeTerritory>
+        <PolicyOrLegalNotice>
+            <TSLLegalNotice xml:lang="en">The applicable JP legal framework for the present trusted list is none. The JP trusted list is only for technical verification.</TSLLegalNotice>
+            <TSLLegalNotice xml:lang="ja">The applicable JP legal framework for the present trusted list is none. The JP trusted list is only for technical verification.</TSLLegalNotice>
+        </PolicyOrLegalNotice>
+        <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+        <PointersToOtherTSL/>
+        <ListIssueDateTime>2026-08-31T15:00:00Z</ListIssueDateTime>
+        <NextUpdate>
+            <dateTime>2027-02-27T15:00:00Z</dateTime>
+        </NextUpdate>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">SECOM Trust Systems CO.LTD.</Name>
+                    <Name xml:lang="en">SECOM Trust.net Co., Ltd.</Name>
+                    <Name xml:lang="ja">セコムトラストシステムズ株式会社</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">NTRJP-4011001040781</Name>
+                    <Name xml:lang="ja">NTRJP-4011001040781</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>1-5-1 SECOM Headquarters building</StreetAddress>
+                            <Locality>Jingu-mae Shibuya-ku</Locality>
+                            <StateOrProvince>Tokyo</StateOrProvince>
+                            <PostalCode>1500001</PostalCode>
+                            <CountryName>JP</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="ja">
+                            <StreetAddress>1-5-1 セコム本社ビル</StreetAddress>
+                            <Locality>渋谷区神宮前</Locality>
+                            <StateOrProvince>東京都</StateOrProvince>
+                            <PostalCode>1500001</PostalCode>
+                            <CountryName>JP</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">https://www.secomtrust.net/</URI>
+                        <URI xml:lang="ja">https://www.secomtrust.net/</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.secomtrust.net/</URI>
+                    <URI xml:lang="en">https://repository.secomtrust.net/PassportFor/G-ID/</URI>
+                    <URI xml:lang="ja">https://www.secomtrust.net/</URI>
+                    <URI xml:lang="ja">https://repository.secomtrust.net/PassportFor/G-ID/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://test_jp_agency.jp/TrstSvc/Svctype/CA/QC/for-eSeal</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">SECOM Passport for e-Seal CA</Name>
+                            <Name xml:lang="ja">SECOM Passport for e-Seal CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEBjCCAu6gAwIBAgIUGawnmeOdAQD5jTU/msLAD41DUqYwDQYJKoZIhvcNAQELBQAwfjElMCMGA1UEAwwcU0VDT00gUGFzc3BvcnQgZm9yIGUtU2VhbCBDQTEiMCAGA1UECwwZU0VDT00gUGFzc3BvcnQgZm9yIGUtU2VhbDEkMCIGA1UECgwbU0VDT00gVHJ1c3QgU3lzdGVtcyBDTy5MVEQuMQswCQYDVQQGEwJKUDAeFw0yMDEyMTgwOTE1MjdaFw0zMDEyMTYwOTE1MjZaMH4xJTAjBgNVBAMMHFNFQ09NIFBhc3Nwb3J0IGZvciBlLVNlYWwgQ0ExIjAgBgNVBAsMGVNFQ09NIFBhc3Nwb3J0IGZvciBlLVNlYWwxJDAiBgNVBAoMG1NFQ09NIFRydXN0IFN5c3RlbXMgQ08uTFRELjELMAkGA1UEBhMCSlAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDQ2B+AZ+F8UiG3ZN0t8CAv4eaL7VMUt4lom9YyFff8+/f3motk1G8AeA4SmlArQnc8S9FXH0Nxv+8HNzSq8YYZgUHtcCHptkkflR6NYkTsdaXBbfXQGXx24xGfrSIQ1XPR/KDqLkose6huZ3dEmuNcB6I6Tn6QhJpEAFKBe9IWeHDI/+ZXzzPy5Y9637vSa6Rsal41oMjFZfaIHW+C4oS+jYVLy2jQItnVzIBx5QIwuFrPpmOWUI/MoDU9Bx5AkFIdVt/j2DIrng8t0JwEMZyzJKVEsK+51YSjQII46PD0TKVMg7tKXWJivAYdJtZ0HqXlIkhrFluUtRbIgVl6mnLLAgMBAAGjfDB6MA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUHUXAzClLeap9TlGpvp+faxBnH3MwFwYDVR0gBBAwDjAMBgoqgwiMmxtkgn1kMB0GA1UdDgQWBBQdRcDMKUt5qn1OUam+n59rEGcfczAOBgNVHQ8BAf8EBAMCAYYwDQYJKoZIhvcNAQELBQADggEBAEx2ylKnLQM8hk4VCbDVFTf8qCHLfFSPMLCwM6A++MH2d0k83fS172Q6wYg28IHA+x8e+ayELHG1hVir3y8Wi5y7m32bIcqCTf5GtxwSDEpV1p8U6zteop4Qw04beVhEe3EnAzAY87tuMan2VkHEexwaL/oZg8U+wkbxB7I6DlON0gSvIvs5HQNvDth7CY9lct6uV6LA0qncKCPYsYw9t4/60nZc1MOE1ii0t3RdzkcqUX4Y7P93ZDPxLZC4qwhRbmk3a/nT/rJnrRjt6pdLZ/Aw24SckBzSZh1nU+ydGMzAb9w5JL9I/hKA5bLOVIEQ/IItVCOylkBmNZTtdDJJxyo=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=JP, O=SECOM Trust Systems CO.LTD., OU=SECOM Passport for e-Seal, CN=SECOM Passport for e-Seal CA</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>HUXAzClLeap9TlGpvp+faxBnH3M=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://test_jp_agency.jp/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2021-11-14T15:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+    </TrustServiceProviderList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-fa8ed5441c608f64f4311b026195853a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+ln0O8F0ImqsELKf2v7y5kjwV4tFLQTds1KI2Ow3FaXSbFsYFDRpMNkESwdgL75IX1PAPeaIJIr6fH6TmeRWdw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-fa8ed5441c608f64f4311b026195853a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>1wb+Nkq0W5hP7GoAcCxAjGyddNVytTd02tg2CRwdi1YNDAcUQmhCFS3HfEyLhaAs+w2q1BYlSoDxPbP2BQHVwg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-fa8ed5441c608f64f4311b026195853a">rGSVBst45/HQ2v18sZnLzeMN6xlBT28pKOpY8vr9u8OR+JtK8VJpzB9JyYH04HxQM0UvxmjLFXrpjQKLjO7RndHhzxXVOgrhUBGr3KYTpA3HVnoI9KLaU8LnrVMxncIoAv9xdL57xHJjAMQcEsslFBmw6uQuKdrQ8RAY4+P3xvkhgAJgfpkL6l7BhflNYHzd9/A6Q5AWkEdij8PCvuD45a5VIOkKCSjcwv25F/ZA6qIMWDdCZ858FV7Ok5TGJRzaW4FO89htF5m8PsrH1/WInNIHxyNWzKU+GIIAAj04XHN/uKdrEvTM/ukgZoEqydrYzLIOJGxLuxu+QtQK46AV8hAsayP3TRx7+SRsHCYjRhKZySWC1YWSiogPzXm+XyAbAmWjyRBcUUif9W8vNs/oCavF68tunE+omrsrXpLmD3/ap5MInk0RivUcQKysHAoKmRzbtMb82PWi39ucTzeuo8OrXPloU25iGM4GHweru3Gr8sWqzup0K9jt7fPKtYT7</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE1DCCAzygAwIBAgIURThW/Zax0hB04SV5U1pTGRnR4bcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5MB4XDTI2MDkxMzE0MjUzMVoXDTM2MDkxMDE0MjUzMVowfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAtGm3tF9OpBEAf1H8WKZNmypQkdOplYumcg6b5SINQ2q20extIynzaK59N6zIuqlCzhrgtBoI0q7j7pJQ4rmlSqedJ1fQMVS45ipSNTl0WZMW5ejTWSccsEl0x/GygnSQE7t8Tav+6+IsruwCVnuc+CeiPMH18SOTnjGHplC6hrZE2mVVlCClDWVB2xt0tbS2+79OgIiLSG6+U7pAgtLE8RoWDWq0CvuqcGtqLBzCE6ZdIETgPcyYac3+/Og4gTqC851MUS1qXqpc5ZYp1A1B+vU0NwBQ7KwElaAoDA+NRLOKv5TY2Re08OV/6j35fjIIRWFH7aiuboofyZm6TI+EvDXaprvUpJgvCsxUDfysS47JV/lZhrXaIoIxFyQ0mtWauImnQDshGdVSBDjME4+irfGh2ijj6p+ZNVqQV5C1zzm3h5FIqbr5UpqttVUeZqpyHmJ0cW7+Yw6HKATY0QPgqhz5oePyzGzCuMuEH8HEAVgJ8PeGLwezFr0sI0BlZBJfAgMBAAGjTDBKMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgeAMBEGA1UdJQQKMAgGBgQAkTcDADAdBgNVHQ4EFgQUNAplCxyTonlByhGvyV4LRc/iG3YwDQYJKoZIhvcNAQELBQADggGBABaOsNl/vHBv8qNyaKbzpLlmsCjWfb9OHEwEkrXJjCKhvvTsjy1YqmeXGfWMG2rMUmriTbAkRcVxkswXcGTfbsm8YDdgYNUInLRJQ3NMbcwKpPU4l3wIATby/sbs8MYKmJIZKsFWYpenIZbKlH19oBLWDzp8cHuEYabvQ6uzEBOiKCafa9EUoyXjlK7cU6LiLlwtVJNdlzQnociZq+IBTABQrOJ1ozbaQLS+ltkeBuo8LHjsIroGOczkHqYtD7CZLz/Y0pb8Ln5DmmFilqfsoPEtnfOu2bccOPK0Pth1dsoEcG+RMt9rnTqcG94IMuP9oOlkwmpbMGpAROC/FNj1ftReos1/NE/2U0xjW6tlyuuASWHLVZ/1RCB7Jhw8+s0V7Mh/Fjp2ThhHfMkKYgZ5y/kO4IosfXCgaxB43lwdyG5z1LdmFscvi276xJdHm9uTPfcBstMAaPC8GvvXKOaXlvO4cljH0RBHVoCwbNuiLWTd08zVr41iihreU57v05h08g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-fa8ed5441c608f64f4311b026195853a"><xades:SignedProperties Id="xades-id-fa8ed5441c608f64f4311b026195853a"><xades:SignedSignatureProperties><xades:SigningTime>2026-09-21T12:45:50Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>hDm2FIe4E4hblcJXqVyGY8iwh8zeiHfdysP4NPTn6DRwCSDdeMxY5bsetASSTflW71nXsPkprr027CfN7GmM8A==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGaMIGBpH8wfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5AhRFOFb9lrHSEHThJXlTWlMZGdHhtw==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

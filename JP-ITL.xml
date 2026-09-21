@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="JP-ITL-TEST-001" TSLTag="http://uri.etsi.org/19612/TSLTag">
+    <SchemeInformation>
+        <TSLVersionIdentifier>6</TSLVersionIdentifier>
+        <TSLSequenceNumber>1</TSLSequenceNumber>
+        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/JPlistofthelists</TSLType>
+        <SchemeOperatorName>
+            <Name xml:lang="en">test_jp_agency</Name>
+            <Name xml:lang="ja">test_jp_agency</Name>
+        </SchemeOperatorName>
+        <SchemeOperatorAddress>
+            <PostalAddresses>
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>5322 Endo</StreetAddress>
+                    <Locality>Fujisawa</Locality>
+                    <StateOrProvince>Kanagawa</StateOrProvince>
+                    <PostalCode>2520882</PostalCode>
+                    <CountryName>JP</CountryName>
+                </PostalAddress>
+                <PostalAddress xml:lang="ja">
+                    <StreetAddress>5322 遠藤</StreetAddress>
+                    <Locality>藤沢市</Locality>
+                    <StateOrProvince>神奈川県</StateOrProvince>
+                    <PostalCode>2520882</PostalCode>
+                    <CountryName>JP</CountryName>
+                </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+                <URI xml:lang="en">https://d-trust.sfc.wide.ad.jp/</URI>
+                <URI xml:lang="ja">https://d-trust.sfc.wide.ad.jp/</URI>
+            </ElectronicAddress>
+        </SchemeOperatorAddress>
+        <SchemeName>
+            <Name xml:lang="en">JP:test_jp_agency</Name>
+            <Name xml:lang="ja">JP:test_jp_agency</Name>
+        </SchemeName>
+        <SchemeInformationURI>
+            <URI xml:lang="en">https://d-trust.sfc.keio.ac.jp/hakoniwa/POC/TL/OJ-JP.html</URI>
+            <URI xml:lang="ja">https://d-trust.sfc.keio.ac.jp/hakoniwa/POC/TL/OJ-JP.html</URI>
+            <URI xml:lang="en">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2019.276.01.0001.01.ENG</URI>
+            <URI xml:lang="ja">https://cca.gov.in/acts_guidelines.html</URI>
+        </SchemeInformationURI>
+        <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/JPdetermination</StatusDeterminationApproach>
+        <SchemeTypeCommunityRules>
+            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/JPcommon</URI>
+            <URI xml:lang="ja">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/JPcommon</URI>
+        </SchemeTypeCommunityRules>
+        <SchemeTerritory>JP</SchemeTerritory>
+        <PolicyOrLegalNotice>
+            <TSLLegalNotice xml:lang="en">The applicable JP legal framework for the present trusted list is none. The JP trusted list is only for technical verification.</TSLLegalNotice>
+            <TSLLegalNotice xml:lang="ja">The applicable JP legal framework for the present trusted list is none. The JP trusted list is only for technical verification.</TSLLegalNotice>
+        </PolicyOrLegalNotice>
+        <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+        <PointersToOtherTSL>
+            <OtherTSLPointer>
+                <ServiceDigitalIdentities>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
+                            <X509Certificate>MIIE1DCCAzygAwIBAgIURThW/Zax0hB04SV5U1pTGRnR4bcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5MB4XDTI2MDkxMzE0MjUzMVoXDTM2MDkxMDE0MjUzMVowfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAtGm3tF9OpBEAf1H8WKZNmypQkdOplYumcg6b5SINQ2q20extIynzaK59N6zIuqlCzhrgtBoI0q7j7pJQ4rmlSqedJ1fQMVS45ipSNTl0WZMW5ejTWSccsEl0x/GygnSQE7t8Tav+6+IsruwCVnuc+CeiPMH18SOTnjGHplC6hrZE2mVVlCClDWVB2xt0tbS2+79OgIiLSG6+U7pAgtLE8RoWDWq0CvuqcGtqLBzCE6ZdIETgPcyYac3+/Og4gTqC851MUS1qXqpc5ZYp1A1B+vU0NwBQ7KwElaAoDA+NRLOKv5TY2Re08OV/6j35fjIIRWFH7aiuboofyZm6TI+EvDXaprvUpJgvCsxUDfysS47JV/lZhrXaIoIxFyQ0mtWauImnQDshGdVSBDjME4+irfGh2ijj6p+ZNVqQV5C1zzm3h5FIqbr5UpqttVUeZqpyHmJ0cW7+Yw6HKATY0QPgqhz5oePyzGzCuMuEH8HEAVgJ8PeGLwezFr0sI0BlZBJfAgMBAAGjTDBKMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgeAMBEGA1UdJQQKMAgGBgQAkTcDADAdBgNVHQ4EFgQUNAplCxyTonlByhGvyV4LRc/iG3YwDQYJKoZIhvcNAQELBQADggGBABaOsNl/vHBv8qNyaKbzpLlmsCjWfb9OHEwEkrXJjCKhvvTsjy1YqmeXGfWMG2rMUmriTbAkRcVxkswXcGTfbsm8YDdgYNUInLRJQ3NMbcwKpPU4l3wIATby/sbs8MYKmJIZKsFWYpenIZbKlH19oBLWDzp8cHuEYabvQ6uzEBOiKCafa9EUoyXjlK7cU6LiLlwtVJNdlzQnociZq+IBTABQrOJ1ozbaQLS+ltkeBuo8LHjsIroGOczkHqYtD7CZLz/Y0pb8Ln5DmmFilqfsoPEtnfOu2bccOPK0Pth1dsoEcG+RMt9rnTqcG94IMuP9oOlkwmpbMGpAROC/FNj1ftReos1/NE/2U0xjW6tlyuuASWHLVZ/1RCB7Jhw8+s0V7Mh/Fjp2ThhHfMkKYgZ5y/kO4IosfXCgaxB43lwdyG5z1LdmFscvi276xJdHm9uTPfcBstMAaPC8GvvXKOaXlvO4cljH0RBHVoCwbNuiLWTd08zVr41iihreU57v05h08g==</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                </ServiceDigitalIdentities>
+                <TSLLocation>http://localhost:8000/jp-dtl.xml</TSLLocation>
+                <AdditionalInformation>
+                    <OtherInformation>
+                        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/JPlist</TSLType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTerritory>JP</SchemeTerritory>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <ns4:MimeType>application/vnd.etsi.tsl+xml</ns4:MimeType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeOperatorName>
+                            <Name xml:lang="en">test_jp_agency</Name>
+                            <Name xml:lang="ja">test_jp_agency</Name>
+                        </SchemeOperatorName>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTypeCommunityRules>
+                            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/JPcommon</URI>
+                            <URI xml:lang="ja">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/JPcommon</URI>
+                        </SchemeTypeCommunityRules>
+                    </OtherInformation>
+                </AdditionalInformation>
+            </OtherTSLPointer>
+            <OtherTSLPointer>
+                <ServiceDigitalIdentities>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
+                            <X509Certificate>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</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                </ServiceDigitalIdentities>
+                <TSLLocation>http://localhost:8000/tw-dtl.xml</TSLLocation>
+                <AdditionalInformation>
+                    <OtherInformation>
+                        <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/TWlist</TSLType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTerritory>TW</SchemeTerritory>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <ns4:MimeType>application/vnd.etsi.tsl+xml</ns4:MimeType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeOperatorName>
+                            <Name xml:lang="en">test_tw_agency</Name>
+                        </SchemeOperatorName>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTypeCommunityRules>
+                            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/TWcommon</URI>
+                        </SchemeTypeCommunityRules>
+                    </OtherInformation>
+                </AdditionalInformation>
+            </OtherTSLPointer>
+        </PointersToOtherTSL>
+        <ListIssueDateTime>2026-09-01T07:00:00Z</ListIssueDateTime>
+        <NextUpdate>
+            <dateTime>2027-02-28T07:00:00Z</dateTime>
+        </NextUpdate>
+        <DistributionPoints>
+            <URI>http://localhost:8000/jp-itl.xml</URI>
+        </DistributionPoints>
+    </SchemeInformation>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-f5756dd4a941f60fb202a404d4a55ec3"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>0e08ZD2iHwA6ijUcHw0+TQDqNexLYMERbpR/6FBFOO6659UolpGeUhwi3lrXs8rIiOzERQFXY3gwGB4aZsa2Gw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-f5756dd4a941f60fb202a404d4a55ec3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>rdTOrI59HRD+pr6AnX8ctqlqhjaRnmj5yqLeFyyGTB69J73Ta3lqlPtofNx9sd4CmwrdW6U+8yZPls8t8LEKkg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-f5756dd4a941f60fb202a404d4a55ec3">lruJD5WKyrJcD0gxDhgSAjYFHSGaVT6aZSmNbTXqLdaFqF3KQb0y2PQ+o3iHMgAfxFyyYVs69anWvdS0dqGoRLQBpWDBnq5i2/OE7lXu9j1RRsGoYg7fVU/bnGnbflWYhBtb8wKow5DsMIBOSEFo31mr8KjwXookrv4vCo/9g9WUWyPTG7fMBMwMbDGrD4ogMUv2LeFXw1Fj1O/EwYS5IQHHFZlp/XkAppHN0KoDhQXMw46jtoGBvHWq8LCTJ+Liye5HyLNkC7FqSxxQFLVLRFVAZj8SSVVOuZulEEWQ1ai6xbWsesIpVI/UM/ToBmSlivaLEaZcVSBtIcQ4mMagPmO6Pd/DGZxpvXDEPaxakVsSY00oQrkhU5L1lufd/mptLp2Sta1wrJ7sYKHCGgCXXqfsialxgoyxdvLt76OQNjizEeVzzab+9tI37+AMVFwl/NaELzCwFOtyhYYQsYy0iHkKM2weW6tAaGZDmLxAlY1DEJmWcsEjGehL6GvtKWyf</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE1DCCAzygAwIBAgIURThW/Zax0hB04SV5U1pTGRnR4bcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5MB4XDTI2MDkxMzE0MjUzMVoXDTM2MDkxMDE0MjUzMVowfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAtGm3tF9OpBEAf1H8WKZNmypQkdOplYumcg6b5SINQ2q20extIynzaK59N6zIuqlCzhrgtBoI0q7j7pJQ4rmlSqedJ1fQMVS45ipSNTl0WZMW5ejTWSccsEl0x/GygnSQE7t8Tav+6+IsruwCVnuc+CeiPMH18SOTnjGHplC6hrZE2mVVlCClDWVB2xt0tbS2+79OgIiLSG6+U7pAgtLE8RoWDWq0CvuqcGtqLBzCE6ZdIETgPcyYac3+/Og4gTqC851MUS1qXqpc5ZYp1A1B+vU0NwBQ7KwElaAoDA+NRLOKv5TY2Re08OV/6j35fjIIRWFH7aiuboofyZm6TI+EvDXaprvUpJgvCsxUDfysS47JV/lZhrXaIoIxFyQ0mtWauImnQDshGdVSBDjME4+irfGh2ijj6p+ZNVqQV5C1zzm3h5FIqbr5UpqttVUeZqpyHmJ0cW7+Yw6HKATY0QPgqhz5oePyzGzCuMuEH8HEAVgJ8PeGLwezFr0sI0BlZBJfAgMBAAGjTDBKMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgeAMBEGA1UdJQQKMAgGBgQAkTcDADAdBgNVHQ4EFgQUNAplCxyTonlByhGvyV4LRc/iG3YwDQYJKoZIhvcNAQELBQADggGBABaOsNl/vHBv8qNyaKbzpLlmsCjWfb9OHEwEkrXJjCKhvvTsjy1YqmeXGfWMG2rMUmriTbAkRcVxkswXcGTfbsm8YDdgYNUInLRJQ3NMbcwKpPU4l3wIATby/sbs8MYKmJIZKsFWYpenIZbKlH19oBLWDzp8cHuEYabvQ6uzEBOiKCafa9EUoyXjlK7cU6LiLlwtVJNdlzQnociZq+IBTABQrOJ1ozbaQLS+ltkeBuo8LHjsIroGOczkHqYtD7CZLz/Y0pb8Ln5DmmFilqfsoPEtnfOu2bccOPK0Pth1dsoEcG+RMt9rnTqcG94IMuP9oOlkwmpbMGpAROC/FNj1ftReos1/NE/2U0xjW6tlyuuASWHLVZ/1RCB7Jhw8+s0V7Mh/Fjp2ThhHfMkKYgZ5y/kO4IosfXCgaxB43lwdyG5z1LdmFscvi276xJdHm9uTPfcBstMAaPC8GvvXKOaXlvO4cljH0RBHVoCwbNuiLWTd08zVr41iihreU57v05h08g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-f5756dd4a941f60fb202a404d4a55ec3"><xades:SignedProperties Id="xades-id-f5756dd4a941f60fb202a404d4a55ec3"><xades:SignedSignatureProperties><xades:SigningTime>2026-09-21T12:48:29Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>hDm2FIe4E4hblcJXqVyGY8iwh8zeiHfdysP4NPTn6DRwCSDdeMxY5bsetASSTflW71nXsPkprr027CfN7GmM8A==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGaMIGBpH8wfTELMAkGA1UEBhMCSlAxDjAMBgNVBAgMBVRva3lvMRMwEQYDVQQHDApDaGl5b2RhLWt1MRcwFQYDVQQKDA50ZXN0X2pwX2FnZW5jeTEXMBUGA1UECwwOdGVzdF9qcF9hZ2VuY3kxFzAVBgNVBAMMDnRlc3RfanBfYWdlbmN5AhRFOFb9lrHSEHThJXlTWlMZGdHhtw==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
